@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Actividad_practica_1_412056_1w3_Polzoni_Benjamin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ad8de9e17c6d3f2c59a326cf4ef998e70f1b18b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab773449bc993620e89f356083f83cd87498005b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Actividad_practica_1_412056_1w3_Polzoni_Benjamin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Actividad_practica_1_412056_1w3_Polzoni_Benjamin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
