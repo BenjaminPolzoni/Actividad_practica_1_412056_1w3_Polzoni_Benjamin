@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Benja\\Desktop\\Codigos\\Progra 2\\ActividadesParaEntregar\\Actividad_1\\Actividad_1\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin.csproj": {}
+    "C:\\Users\\benja\\Desktop\\Programs\\EjerciciosC#\\Programacion_2\\TrabajosPracticos\\Actividad1\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Benja\\Desktop\\Codigos\\Progra 2\\ActividadesParaEntregar\\Actividad_1\\Actividad_1\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin.csproj": {
+    "C:\\Users\\benja\\Desktop\\Programs\\EjerciciosC#\\Programacion_2\\TrabajosPracticos\\Actividad1\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Benja\\Desktop\\Codigos\\Progra 2\\ActividadesParaEntregar\\Actividad_1\\Actividad_1\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin.csproj",
+        "projectUniqueName": "C:\\Users\\benja\\Desktop\\Programs\\EjerciciosC#\\Programacion_2\\TrabajosPracticos\\Actividad1\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin.csproj",
         "projectName": "Actividad_practica_1_412056_1w3_Polzoni_Benjamin",
-        "projectPath": "C:\\Users\\Benja\\Desktop\\Codigos\\Progra 2\\ActividadesParaEntregar\\Actividad_1\\Actividad_1\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin.csproj",
-        "packagesPath": "C:\\Users\\Benja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Benja\\Desktop\\Codigos\\Progra 2\\ActividadesParaEntregar\\Actividad_1\\Actividad_1\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin\\obj\\",
+        "projectPath": "C:\\Users\\benja\\Desktop\\Programs\\EjerciciosC#\\Programacion_2\\TrabajosPracticos\\Actividad1\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin.csproj",
+        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\benja\\Desktop\\Programs\\EjerciciosC#\\Programacion_2\\TrabajosPracticos\\Actividad1\\Actividad_practica_1_412056_1w3_Polzoni_Benjamin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
