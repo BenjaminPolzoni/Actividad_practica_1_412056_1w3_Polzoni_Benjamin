@@ -11,10 +11,10 @@ List<Article> listArticles = oArticleS.GetAll();
 List<Client> listClient = oClientS.GetAll();
 List<Seller> listSeller = oSellerS.GetAll();
 
-foreach(Seller seller in listSeller)
-{
-    Console.WriteLine(seller.ToString);
-}
+//foreach(Seller seller in listSeller)
+//{
+//    Console.WriteLine(seller.ToString);
+//}
 //foreach (Client client in listClient)
 //{
 //    Console.WriteLine(client.ToString());
