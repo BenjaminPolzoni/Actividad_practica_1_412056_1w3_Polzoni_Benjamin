@@ -15,7 +15,7 @@ namespace Actividad_practica_1_412056_1w3_Polzoni_Benjamin.Data.Utiliti
 
         private DataHelper()
         {
-            _connection = new SqlConnection(Properties.Resources.SqlConnection);
+            _connection = new SqlConnection(Properties.Resources.SqlConnexion);
         }
 
         public SqlConnection GetConnection()

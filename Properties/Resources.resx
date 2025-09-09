@@ -117,8 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="SqlConnection" xml:space="preserve">
-    <value>Data Source=DESKTOP-CQDS2BB\SQLEXPRESS;Initial Catalog=LIBRERIA_BD_Actividad_1;Integrated Security=True;Encrypt=False</value>
-    <comment>Conexion con la base de datos</comment>
+  <data name="SqlConnexion" xml:space="preserve">
+    <value>Data Source=ELNOBLEX\SQLEXPRESS;Initial Catalog=LIBRERIA_BD_Actividad_1;Integrated Security=True;Encrypt=False</value>
+    <comment>conexion a la base de datos</comment>
   </data>
 </root>

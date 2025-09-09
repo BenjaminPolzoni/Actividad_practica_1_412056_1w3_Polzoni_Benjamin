@@ -21,21 +21,26 @@ namespace Actividad_practica_1_412056_1w3_Polzoni_Benjamin.Data
         {
             List<Article> lst = new List<Article>();
 
-
             var dt = DataHelper.GetInstance().ExecuteSPQuery("SP_RECUPERAR_ARTICULOS");
-
-            foreach (DataRow row in dt.Rows)
+            if (dt != null) 
             {
-                Article p = new Article();
-                p.Cod = (int)row["cod_articulo"];
-                p.Description = (string)row["descripcion"];
-                p.MinStock = row["stock_minimo"] == DBNull.Value ? 0 : Convert.ToInt32(row["stock_minimo"]); ;
-                p.Stock = Convert.ToInt32(row["stock"]) ;
-                p.UnitPrice = Convert.ToDouble(row["pre_unitario"]);
-                p.Observation = row["observaciones"] == DBNull.Value ? "" : (string)row["observaciones"];
-                lst.Add(p);
+                foreach (DataRow row in dt.Rows)
+                {
+                    Article p = new Article();
+                    p.Cod = (int)row["cod_articulo"];
+                    p.Description = (string)row["descripcion"];
+                    p.MinStock = row["stock_minimo"] == DBNull.Value ? 0 : Convert.ToInt32(row["stock_minimo"]); ;
+                    p.Stock = Convert.ToInt32(row["stock"]);
+                    p.UnitPrice = Convert.ToDouble(row["pre_unitario"]);
+                    p.Observation = row["observaciones"] == DBNull.Value ? "" : (string)row["observaciones"];
+                    lst.Add(p);
+                }
+                return lst;
             }
-            return lst;
+            else
+            {
+                return lst;
+            }
         }
 
         public Article GetById(int id)

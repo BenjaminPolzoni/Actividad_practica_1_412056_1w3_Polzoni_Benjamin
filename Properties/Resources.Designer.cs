@@ -61,11 +61,11 @@ namespace Actividad_practica_1_412056_1w3_Polzoni_Benjamin.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Data Source=DESKTOP-CQDS2BB\SQLEXPRESS;Initial Catalog=LIBRERIA_BD_Actividad_1;Integrated Security=True;Encrypt=False.
+        ///   Busca una cadena traducida similar a Data Source=ELNOBLEX\SQLEXPRESS;Initial Catalog=LIBRERIA_BD_Actividad_1;Integrated Security=True;Encrypt=False.
         /// </summary>
-        internal static string SqlConnection {
+        internal static string SqlConnexion {
             get {
-                return ResourceManager.GetString("SqlConnection", resourceCulture);
+                return ResourceManager.GetString("SqlConnexion", resourceCulture);
             }
         }
     }
